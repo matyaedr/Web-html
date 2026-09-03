@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Aurybeat - aktuální beat ke stažení.">
+	<title>Aurybeat</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<main class="page">
+		<section class="player-card" aria-labelledby="page-title">
+			<h1 id="page-title">Aurybeat</h1>
+			<div class="player">
+				<div class="progress" role="slider" aria-label="Pozice ve skladbě" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0"><div class="progress-fill"></div></div>
+				<div class="player-row"><button class="play" type="button" aria-label="Přehrát beat" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg></button><span class="time">00:00 / 00:00</span><a class="download" href="assets/bad%20master%20clean.wav" download>Stáhnout beat</a></div>
+			</div>
+			<a class="instagram" href="https://www.instagram.com/aeematyy/" target="_blank" rel="noopener">@aeematyy</a>
+			<p class="license">Free for profit. No credit needed.</p>
+			<audio id="audio" preload="metadata" src="assets/bad%20master%20clean.wav"></audio>
+		</section>
+	</main>
+	<script src="js/script.js"></script>
+</body>
+</html>
